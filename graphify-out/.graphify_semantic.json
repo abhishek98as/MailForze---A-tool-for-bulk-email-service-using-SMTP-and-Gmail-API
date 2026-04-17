@@ -1,0 +1,2280 @@
+{
+  "nodes": [
+    {
+      "id": "eslint_config_mjs",
+      "label": "eslint.config.mjs",
+      "file_type": "code",
+      "source_file": "eslint.config.mjs",
+      "source_location": "L1"
+    },
+    {
+      "id": "next_config_mjs",
+      "label": "next.config.mjs",
+      "file_type": "code",
+      "source_file": "next.config.mjs",
+      "source_location": "L1"
+    },
+    {
+      "id": "postcss_config_mjs",
+      "label": "postcss.config.mjs",
+      "file_type": "code",
+      "source_file": "postcss.config.mjs",
+      "source_location": "L1"
+    },
+    {
+      "id": "app_layout_js",
+      "label": "layout.js",
+      "file_type": "code",
+      "source_file": "app\\layout.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "layout_rootlayout",
+      "label": "RootLayout()",
+      "file_type": "code",
+      "source_file": "app\\layout.js",
+      "source_location": "L23"
+    },
+    {
+      "id": "app_page_js",
+      "label": "page.js",
+      "file_type": "code",
+      "source_file": "app\\page.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "page_home",
+      "label": "Home()",
+      "file_type": "code",
+      "source_file": "app\\page.js",
+      "source_location": "L3"
+    },
+    {
+      "id": "app_ai_assistant_page_js",
+      "label": "page.js",
+      "file_type": "code",
+      "source_file": "app\\ai-assistant\\page.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "page_aiassistantpage",
+      "label": "AiAssistantPage()",
+      "file_type": "code",
+      "source_file": "app\\ai-assistant\\page.js",
+      "source_location": "L11"
+    },
+    {
+      "id": "app_api_ai_analyze_route_js",
+      "label": "route.js",
+      "file_type": "code",
+      "source_file": "app\\api\\ai\\analyze\\route.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "route_post",
+      "label": "POST()",
+      "file_type": "code",
+      "source_file": "app\\api\\ai\\analyze\\route.js",
+      "source_location": "L6"
+    },
+    {
+      "id": "app_api_campaigns_route_js",
+      "label": "route.js",
+      "file_type": "code",
+      "source_file": "app\\api\\campaigns\\route.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "route_get",
+      "label": "GET()",
+      "file_type": "code",
+      "source_file": "app\\api\\campaigns\\route.js",
+      "source_location": "L7"
+    },
+    {
+      "id": "app_api_campaigns_id_route_js",
+      "label": "route.js",
+      "file_type": "code",
+      "source_file": "app\\api\\campaigns\\[id]\\route.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "route_put",
+      "label": "PUT()",
+      "file_type": "code",
+      "source_file": "app\\api\\campaigns\\[id]\\route.js",
+      "source_location": "L26"
+    },
+    {
+      "id": "route_delete",
+      "label": "DELETE()",
+      "file_type": "code",
+      "source_file": "app\\api\\campaigns\\[id]\\route.js",
+      "source_location": "L44"
+    },
+    {
+      "id": "app_api_campaigns_id_recipients_route_js",
+      "label": "route.js",
+      "file_type": "code",
+      "source_file": "app\\api\\campaigns\\[id]\\recipients\\route.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "app_api_cron_imap_sync_route_js",
+      "label": "route.js",
+      "file_type": "code",
+      "source_file": "app\\api\\cron\\imap-sync\\route.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "app_api_dashboard_stats_route_js",
+      "label": "route.js",
+      "file_type": "code",
+      "source_file": "app\\api\\dashboard\\stats\\route.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "app_api_logs_route_js",
+      "label": "route.js",
+      "file_type": "code",
+      "source_file": "app\\api\\logs\\route.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "app_api_recipients_route_js",
+      "label": "route.js",
+      "file_type": "code",
+      "source_file": "app\\api\\recipients\\route.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "app_api_reports_route_js",
+      "label": "route.js",
+      "file_type": "code",
+      "source_file": "app\\api\\reports\\route.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "app_api_reports_export_route_js",
+      "label": "route.js",
+      "file_type": "code",
+      "source_file": "app\\api\\reports\\export\\route.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "app_api_send_batch_route_js",
+      "label": "route.js",
+      "file_type": "code",
+      "source_file": "app\\api\\send\\batch\\route.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "app_api_send_bulk_route_js",
+      "label": "route.js",
+      "file_type": "code",
+      "source_file": "app\\api\\send\\bulk\\route.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "app_api_send_retry_route_js",
+      "label": "route.js",
+      "file_type": "code",
+      "source_file": "app\\api\\send\\retry\\route.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "app_api_settings_route_js",
+      "label": "route.js",
+      "file_type": "code",
+      "source_file": "app\\api\\settings\\route.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "app_api_settings_test_smtp_route_js",
+      "label": "route.js",
+      "file_type": "code",
+      "source_file": "app\\api\\settings\\test-smtp\\route.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "app_api_templates_route_js",
+      "label": "route.js",
+      "file_type": "code",
+      "source_file": "app\\api\\templates\\route.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "app_api_track_route_js",
+      "label": "route.js",
+      "file_type": "code",
+      "source_file": "app\\api\\track\\route.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "app_campaigns_page_js",
+      "label": "page.js",
+      "file_type": "code",
+      "source_file": "app\\campaigns\\page.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "page_campaignspage",
+      "label": "CampaignsPage()",
+      "file_type": "code",
+      "source_file": "app\\campaigns\\page.js",
+      "source_location": "L5"
+    },
+    {
+      "id": "app_campaigns_id_page_js",
+      "label": "page.js",
+      "file_type": "code",
+      "source_file": "app\\campaigns\\[id]\\page.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "page_campaigndetailspage",
+      "label": "CampaignDetailsPage()",
+      "file_type": "code",
+      "source_file": "app\\campaigns\\[id]\\page.js",
+      "source_location": "L5"
+    },
+    {
+      "id": "app_compose_page_js",
+      "label": "page.js",
+      "file_type": "code",
+      "source_file": "app\\compose\\page.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "page_composepage",
+      "label": "ComposePage()",
+      "file_type": "code",
+      "source_file": "app\\compose\\page.js",
+      "source_location": "L6"
+    },
+    {
+      "id": "app_dashboard_page_js",
+      "label": "page.js",
+      "file_type": "code",
+      "source_file": "app\\dashboard\\page.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "page_dashboardpage",
+      "label": "DashboardPage()",
+      "file_type": "code",
+      "source_file": "app\\dashboard\\page.js",
+      "source_location": "L5"
+    },
+    {
+      "id": "app_logs_page_js",
+      "label": "page.js",
+      "file_type": "code",
+      "source_file": "app\\logs\\page.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "page_logspage",
+      "label": "LogsPage()",
+      "file_type": "code",
+      "source_file": "app\\logs\\page.js",
+      "source_location": "L13"
+    },
+    {
+      "id": "app_recipients_page_js",
+      "label": "page.js",
+      "file_type": "code",
+      "source_file": "app\\recipients\\page.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "page_recipientspage",
+      "label": "RecipientsPage()",
+      "file_type": "code",
+      "source_file": "app\\recipients\\page.js",
+      "source_location": "L7"
+    },
+    {
+      "id": "app_reports_page_js",
+      "label": "page.js",
+      "file_type": "code",
+      "source_file": "app\\reports\\page.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "page_reportspage",
+      "label": "ReportsPage()",
+      "file_type": "code",
+      "source_file": "app\\reports\\page.js",
+      "source_location": "L4"
+    },
+    {
+      "id": "app_settings_page_js",
+      "label": "page.js",
+      "file_type": "code",
+      "source_file": "app\\settings\\page.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "page_settingspage",
+      "label": "SettingsPage()",
+      "file_type": "code",
+      "source_file": "app\\settings\\page.js",
+      "source_location": "L4"
+    },
+    {
+      "id": "app_templates_page_js",
+      "label": "page.js",
+      "file_type": "code",
+      "source_file": "app\\templates\\page.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "page_templatespage",
+      "label": "TemplatesPage()",
+      "file_type": "code",
+      "source_file": "app\\templates\\page.js",
+      "source_location": "L16"
+    },
+    {
+      "id": "components_poller_js",
+      "label": "Poller.js",
+      "file_type": "code",
+      "source_file": "components\\Poller.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "poller_poller",
+      "label": "Poller()",
+      "file_type": "code",
+      "source_file": "components\\Poller.js",
+      "source_location": "L4"
+    },
+    {
+      "id": "components_sidebar_jsx",
+      "label": "Sidebar.jsx",
+      "file_type": "code",
+      "source_file": "components\\Sidebar.jsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "sidebar_sidebar",
+      "label": "Sidebar()",
+      "file_type": "code",
+      "source_file": "components\\Sidebar.jsx",
+      "source_location": "L6"
+    },
+    {
+      "id": "components_sidebarcontext_jsx",
+      "label": "SidebarContext.jsx",
+      "file_type": "code",
+      "source_file": "components\\SidebarContext.jsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "sidebarcontext_sidebarprovider",
+      "label": "SidebarProvider()",
+      "file_type": "code",
+      "source_file": "components\\SidebarContext.jsx",
+      "source_location": "L6"
+    },
+    {
+      "id": "sidebarcontext_usesidebar",
+      "label": "useSidebar()",
+      "file_type": "code",
+      "source_file": "components\\SidebarContext.jsx",
+      "source_location": "L18"
+    },
+    {
+      "id": "components_topbar_jsx",
+      "label": "Topbar.jsx",
+      "file_type": "code",
+      "source_file": "components\\Topbar.jsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "topbar_topbar",
+      "label": "Topbar()",
+      "file_type": "code",
+      "source_file": "components\\Topbar.jsx",
+      "source_location": "L6"
+    },
+    {
+      "id": "hooks_usecampaignpoller_js",
+      "label": "useCampaignPoller.js",
+      "file_type": "code",
+      "source_file": "hooks\\useCampaignPoller.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "usecampaignpoller_usecampaignpoller",
+      "label": "useCampaignPoller()",
+      "file_type": "code",
+      "source_file": "hooks\\useCampaignPoller.js",
+      "source_location": "L4"
+    },
+    {
+      "id": "lib_mongodb_js",
+      "label": "mongodb.js",
+      "file_type": "code",
+      "source_file": "lib\\mongodb.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "mongodb_dbconnect",
+      "label": "dbConnect()",
+      "file_type": "code",
+      "source_file": "lib\\mongodb.js",
+      "source_location": "L20"
+    },
+    {
+      "id": "models_campaign_js",
+      "label": "Campaign.js",
+      "file_type": "code",
+      "source_file": "models\\Campaign.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "models_emaillog_js",
+      "label": "EmailLog.js",
+      "file_type": "code",
+      "source_file": "models\\EmailLog.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "models_recipient_js",
+      "label": "Recipient.js",
+      "file_type": "code",
+      "source_file": "models\\Recipient.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "models_settings_js",
+      "label": "Settings.js",
+      "file_type": "code",
+      "source_file": "models\\Settings.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "models_template_js",
+      "label": "Template.js",
+      "file_type": "code",
+      "source_file": "models\\Template.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "agents_nextjs_agent_rules",
+      "label": "Next.js Agent Rules",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "agents_breaking_changes",
+      "label": "Breaking Changes",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "agents_docs_guide",
+      "label": "Next.js Docs Guide",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "claude_agents_link",
+      "label": "@AGENTS.md link",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_mailforze",
+      "label": "MailForze",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_nextjs",
+      "label": "Next.js 14",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_mongodb",
+      "label": "MongoDB Atlas",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_gemini_ai",
+      "label": "Google Gemini AI",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_bulk_email",
+      "label": "Bulk Email Sending",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_ai_analysis",
+      "label": "AI-Powered Analysis",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_dashboard",
+      "label": "Real-time Dashboard",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_campaign_mgmt",
+      "label": "Campaign Management",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_recipients",
+      "label": "Recipients Browser",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_templates",
+      "label": "Email Templates",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_reports",
+      "label": "Reports & Analytics",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_logs",
+      "label": "Activity Logs",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_settings",
+      "label": "SMTP/IMAP Settings",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_responsive",
+      "label": "Fully Responsive Dashboard",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_privacy",
+      "label": "Client-First Privacy",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_nodemailer",
+      "label": "Nodemailer",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_imap_simple",
+      "label": "imap-simple",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_xlsx",
+      "label": "xlsx",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_vercel",
+      "label": "Vercel",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_cron_job",
+      "label": "Vercel Cron Job",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "file_icon",
+      "label": "File Icon",
+      "file_type": "image",
+      "source_file": "public/file.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "globe_icon",
+      "label": "Globe Icon",
+      "file_type": "image",
+      "source_file": "public/globe.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "next_logo",
+      "label": "Next.js Logo",
+      "file_type": "image",
+      "source_file": "public/next.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "vercel_logo",
+      "label": "Vercel Logo",
+      "file_type": "image",
+      "source_file": "public/vercel.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "window_icon",
+      "label": "Window Icon",
+      "file_type": "image",
+      "source_file": "public/window.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "eslint_config_mjs",
+      "target": "config",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "eslint.config.mjs",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "eslint_config_mjs",
+      "target": "core_web_vitals",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "eslint.config.mjs",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "app_layout_js",
+      "target": "google",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\layout.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "app_layout_js",
+      "target": "app_globals_css",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\layout.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "app_layout_js",
+      "target": "sidebar",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\layout.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "app_layout_js",
+      "target": "topbar",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\layout.js",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "app_layout_js",
+      "target": "poller",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\layout.js",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "app_layout_js",
+      "target": "sidebarcontext",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\layout.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "app_layout_js",
+      "target": "layout_rootlayout",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\layout.js",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "app_page_js",
+      "target": "navigation",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\page.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "app_page_js",
+      "target": "page_home",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\page.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "app_ai_assistant_page_js",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\ai-assistant\\page.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "app_ai_assistant_page_js",
+      "target": "page_aiassistantpage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\ai-assistant\\page.js",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_ai_analyze_route_js",
+      "target": "server",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\ai\\analyze\\route.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_ai_analyze_route_js",
+      "target": "generative_ai",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\ai\\analyze\\route.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_ai_analyze_route_js",
+      "target": "route_post",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\ai\\analyze\\route.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_campaigns_route_js",
+      "target": "server",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\campaigns\\route.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_campaigns_route_js",
+      "target": "lib_mongodb",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\campaigns\\route.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_campaigns_route_js",
+      "target": "models_campaign",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\campaigns\\route.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_campaigns_route_js",
+      "target": "route_get",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\campaigns\\route.js",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_campaigns_route_js",
+      "target": "route_post",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\campaigns\\route.js",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_campaigns_id_route_js",
+      "target": "server",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\campaigns\\[id]\\route.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_campaigns_id_route_js",
+      "target": "lib_mongodb",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\campaigns\\[id]\\route.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_campaigns_id_route_js",
+      "target": "models_campaign",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\campaigns\\[id]\\route.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_campaigns_id_route_js",
+      "target": "models_recipient",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\campaigns\\[id]\\route.js",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_campaigns_id_route_js",
+      "target": "route_get",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\campaigns\\[id]\\route.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_campaigns_id_route_js",
+      "target": "route_put",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\campaigns\\[id]\\route.js",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_campaigns_id_route_js",
+      "target": "route_delete",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\campaigns\\[id]\\route.js",
+      "source_location": "L44",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_campaigns_id_recipients_route_js",
+      "target": "server",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\campaigns\\[id]\\recipients\\route.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_campaigns_id_recipients_route_js",
+      "target": "lib_mongodb",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\campaigns\\[id]\\recipients\\route.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_campaigns_id_recipients_route_js",
+      "target": "models_recipient",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\campaigns\\[id]\\recipients\\route.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_campaigns_id_recipients_route_js",
+      "target": "route_get",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\campaigns\\[id]\\recipients\\route.js",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_cron_imap_sync_route_js",
+      "target": "server",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\cron\\imap-sync\\route.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_cron_imap_sync_route_js",
+      "target": "lib_mongodb",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\cron\\imap-sync\\route.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_cron_imap_sync_route_js",
+      "target": "models_settings",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\cron\\imap-sync\\route.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_cron_imap_sync_route_js",
+      "target": "models_recipient",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\cron\\imap-sync\\route.js",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_cron_imap_sync_route_js",
+      "target": "models_campaign",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\cron\\imap-sync\\route.js",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_cron_imap_sync_route_js",
+      "target": "models_emaillog",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\cron\\imap-sync\\route.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_cron_imap_sync_route_js",
+      "target": "imap_simple",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\cron\\imap-sync\\route.js",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_cron_imap_sync_route_js",
+      "target": "mailparser",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\cron\\imap-sync\\route.js",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_cron_imap_sync_route_js",
+      "target": "route_get",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\cron\\imap-sync\\route.js",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_dashboard_stats_route_js",
+      "target": "server",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\dashboard\\stats\\route.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_dashboard_stats_route_js",
+      "target": "lib_mongodb",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\dashboard\\stats\\route.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_dashboard_stats_route_js",
+      "target": "models_campaign",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\dashboard\\stats\\route.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_dashboard_stats_route_js",
+      "target": "models_recipient",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\dashboard\\stats\\route.js",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_dashboard_stats_route_js",
+      "target": "route_get",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\dashboard\\stats\\route.js",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_logs_route_js",
+      "target": "server",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\logs\\route.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_logs_route_js",
+      "target": "lib_mongodb",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\logs\\route.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_logs_route_js",
+      "target": "models_emaillog",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\logs\\route.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_logs_route_js",
+      "target": "route_get",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\logs\\route.js",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_recipients_route_js",
+      "target": "server",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\recipients\\route.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_recipients_route_js",
+      "target": "lib_mongodb",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\recipients\\route.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_recipients_route_js",
+      "target": "models_recipient",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\recipients\\route.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_recipients_route_js",
+      "target": "route_get",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\recipients\\route.js",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_reports_route_js",
+      "target": "server",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\reports\\route.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_reports_route_js",
+      "target": "lib_mongodb",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\reports\\route.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_reports_route_js",
+      "target": "models_campaign",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\reports\\route.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_reports_route_js",
+      "target": "models_recipient",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\reports\\route.js",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_reports_route_js",
+      "target": "route_get",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\reports\\route.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_reports_export_route_js",
+      "target": "server",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\reports\\export\\route.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_reports_export_route_js",
+      "target": "lib_mongodb",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\reports\\export\\route.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_reports_export_route_js",
+      "target": "models_campaign",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\reports\\export\\route.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_reports_export_route_js",
+      "target": "models_recipient",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\reports\\export\\route.js",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_reports_export_route_js",
+      "target": "route_get",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\reports\\export\\route.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_send_batch_route_js",
+      "target": "server",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\send\\batch\\route.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_send_batch_route_js",
+      "target": "lib_mongodb",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\send\\batch\\route.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_send_batch_route_js",
+      "target": "models_recipient",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\send\\batch\\route.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_send_batch_route_js",
+      "target": "models_campaign",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\send\\batch\\route.js",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_send_batch_route_js",
+      "target": "models_settings",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\send\\batch\\route.js",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_send_batch_route_js",
+      "target": "models_emaillog",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\send\\batch\\route.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_send_batch_route_js",
+      "target": "nodemailer",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\send\\batch\\route.js",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_send_batch_route_js",
+      "target": "route_post",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\send\\batch\\route.js",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_send_bulk_route_js",
+      "target": "server",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\send\\bulk\\route.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_send_bulk_route_js",
+      "target": "lib_mongodb",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\send\\bulk\\route.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_send_bulk_route_js",
+      "target": "models_recipient",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\send\\bulk\\route.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_send_bulk_route_js",
+      "target": "models_campaign",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\send\\bulk\\route.js",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_send_bulk_route_js",
+      "target": "route_post",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\send\\bulk\\route.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_send_retry_route_js",
+      "target": "server",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\send\\retry\\route.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_send_retry_route_js",
+      "target": "lib_mongodb",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\send\\retry\\route.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_send_retry_route_js",
+      "target": "models_recipient",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\send\\retry\\route.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_send_retry_route_js",
+      "target": "models_campaign",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\send\\retry\\route.js",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_send_retry_route_js",
+      "target": "route_post",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\send\\retry\\route.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_settings_route_js",
+      "target": "server",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\settings\\route.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_settings_route_js",
+      "target": "lib_mongodb",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\settings\\route.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_settings_route_js",
+      "target": "models_settings",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\settings\\route.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_settings_route_js",
+      "target": "route_get",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\settings\\route.js",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_settings_route_js",
+      "target": "route_post",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\settings\\route.js",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_settings_test_smtp_route_js",
+      "target": "server",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\settings\\test-smtp\\route.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_settings_test_smtp_route_js",
+      "target": "nodemailer",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\settings\\test-smtp\\route.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_settings_test_smtp_route_js",
+      "target": "lib_mongodb",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\settings\\test-smtp\\route.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_settings_test_smtp_route_js",
+      "target": "models_settings",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\settings\\test-smtp\\route.js",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_settings_test_smtp_route_js",
+      "target": "route_post",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\settings\\test-smtp\\route.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_templates_route_js",
+      "target": "server",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\templates\\route.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_templates_route_js",
+      "target": "lib_mongodb",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\templates\\route.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_templates_route_js",
+      "target": "models_template",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\templates\\route.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_templates_route_js",
+      "target": "route_get",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\templates\\route.js",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_templates_route_js",
+      "target": "route_post",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\templates\\route.js",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_track_route_js",
+      "target": "server",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\track\\route.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_track_route_js",
+      "target": "lib_mongodb",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\track\\route.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_track_route_js",
+      "target": "models_recipient",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\track\\route.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_track_route_js",
+      "target": "models_campaign",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\track\\route.js",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_track_route_js",
+      "target": "models_emaillog",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\track\\route.js",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "app_api_track_route_js",
+      "target": "route_get",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\api\\track\\route.js",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "app_campaigns_page_js",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\campaigns\\page.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "app_campaigns_page_js",
+      "target": "link",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\campaigns\\page.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "app_campaigns_page_js",
+      "target": "page_campaignspage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\campaigns\\page.js",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "app_campaigns_id_page_js",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\campaigns\\[id]\\page.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "app_campaigns_id_page_js",
+      "target": "link",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\campaigns\\[id]\\page.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "app_campaigns_id_page_js",
+      "target": "page_campaigndetailspage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\campaigns\\[id]\\page.js",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "app_compose_page_js",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\compose\\page.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "app_compose_page_js",
+      "target": "xlsx",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\compose\\page.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "app_compose_page_js",
+      "target": "navigation",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\compose\\page.js",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "app_compose_page_js",
+      "target": "page_composepage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\compose\\page.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "app_dashboard_page_js",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\dashboard\\page.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "app_dashboard_page_js",
+      "target": "link",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\dashboard\\page.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "app_dashboard_page_js",
+      "target": "page_dashboardpage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\dashboard\\page.js",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "app_logs_page_js",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\logs\\page.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "app_logs_page_js",
+      "target": "page_logspage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\logs\\page.js",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "app_recipients_page_js",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\recipients\\page.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "app_recipients_page_js",
+      "target": "link",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\recipients\\page.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "app_recipients_page_js",
+      "target": "page_recipientspage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\recipients\\page.js",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "app_reports_page_js",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\reports\\page.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "app_reports_page_js",
+      "target": "page_reportspage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\reports\\page.js",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "app_settings_page_js",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\settings\\page.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "app_settings_page_js",
+      "target": "page_settingspage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\settings\\page.js",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "app_templates_page_js",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\templates\\page.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "app_templates_page_js",
+      "target": "link",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\templates\\page.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "app_templates_page_js",
+      "target": "page_templatespage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app\\templates\\page.js",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "components_poller_js",
+      "target": "hooks_usecampaignpoller",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "components\\Poller.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "components_poller_js",
+      "target": "poller_poller",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components\\Poller.js",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "components_sidebar_jsx",
+      "target": "link",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "components\\Sidebar.jsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "components_sidebar_jsx",
+      "target": "navigation",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "components\\Sidebar.jsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "components_sidebar_jsx",
+      "target": "sidebarcontext",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "components\\Sidebar.jsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "components_sidebar_jsx",
+      "target": "sidebar_sidebar",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components\\Sidebar.jsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "components_sidebarcontext_jsx",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "components\\SidebarContext.jsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "components_sidebarcontext_jsx",
+      "target": "sidebarcontext_sidebarprovider",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components\\SidebarContext.jsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "components_sidebarcontext_jsx",
+      "target": "sidebarcontext_usesidebar",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components\\SidebarContext.jsx",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "components_topbar_jsx",
+      "target": "navigation",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "components\\Topbar.jsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "components_topbar_jsx",
+      "target": "link",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "components\\Topbar.jsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "components_topbar_jsx",
+      "target": "sidebarcontext",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "components\\Topbar.jsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "components_topbar_jsx",
+      "target": "topbar_topbar",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components\\Topbar.jsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "hooks_usecampaignpoller_js",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "hooks\\useCampaignPoller.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "hooks_usecampaignpoller_js",
+      "target": "usecampaignpoller_usecampaignpoller",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "hooks\\useCampaignPoller.js",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_mongodb_js",
+      "target": "mongoose",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "lib\\mongodb.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_mongodb_js",
+      "target": "mongodb_dbconnect",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib\\mongodb.js",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "models_campaign_js",
+      "target": "mongoose",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "models\\Campaign.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "models_emaillog_js",
+      "target": "mongoose",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "models\\EmailLog.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "models_recipient_js",
+      "target": "mongoose",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "models\\Recipient.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "models_settings_js",
+      "target": "mongoose",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "models\\Settings.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "models_template_js",
+      "target": "mongoose",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "models\\Template.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "agents_nextjs_agent_rules",
+      "target": "agents_breaking_changes",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "agents_nextjs_agent_rules",
+      "target": "agents_docs_guide",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "claude_agents_link",
+      "target": "agents_nextjs_agent_rules",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_mailforze",
+      "target": "readme_nextjs",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_mailforze",
+      "target": "readme_mongodb",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_mailforze",
+      "target": "readme_gemini_ai",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_mailforze",
+      "target": "readme_bulk_email",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_ai_analysis",
+      "target": "readme_gemini_ai",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_bulk_email",
+      "target": "readme_nodemailer",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_mailforze",
+      "target": "readme_vercel",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_vercel",
+      "target": "readme_cron_job",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_cron_job",
+      "target": "readme_imap_simple",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "next_logo",
+      "target": "readme_nextjs",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "public/next.svg",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "vercel_logo",
+      "target": "readme_vercel",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "public/vercel.svg",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

@@ -4,6 +4,7 @@ import Sidebar from "@/components/Sidebar";
 import Topbar from "@/components/Topbar";
 import Poller from "@/components/Poller";
 import { SidebarProvider } from "@/components/SidebarContext";
+import { ThemeProvider } from "@/components/ThemeContext";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -22,7 +23,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" data-theme="dark">
       <head>
         <link
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
@@ -30,16 +31,18 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body className={`${inter.variable} ${jetbrainsMono.variable} antialiased`}>
-        <SidebarProvider>
-          <Sidebar />
-          <div className="main-content">
-            <Topbar />
-            <div className="content-container">
-              {children}
+        <ThemeProvider>
+          <SidebarProvider>
+            <Sidebar />
+            <div className="main-content">
+              <Topbar />
+              <div className="content-container">
+                {children}
+              </div>
             </div>
-          </div>
-          <Poller />
-        </SidebarProvider>
+            <Poller />
+          </SidebarProvider>
+        </ThemeProvider>
       </body>
     </html>
   );

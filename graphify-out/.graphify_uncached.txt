@@ -1,0 +1,8 @@
+AGENTS.md
+CLAUDE.md
+README.md
+public\file.svg
+public\globe.svg
+public\next.svg
+public\vercel.svg
+public\window.svg

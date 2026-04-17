@@ -2,11 +2,13 @@
 import { usePathname, useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { useSidebar } from '@/components/SidebarContext';
+import { useTheme } from '@/components/ThemeContext';
 
 export default function Topbar() {
   const pathname = usePathname();
   const router = useRouter();
   const { toggle } = useSidebar();
+  const { theme, toggleTheme } = useTheme();
 
   const getPageTitle = () => {
     if (pathname === '/dashboard')             return { title: 'Dashboard',      sub: 'Overview of your email automation activity' };
@@ -23,6 +25,7 @@ export default function Topbar() {
   };
 
   const { title, sub } = getPageTitle();
+  const isDark = theme === 'dark';
 
   return (
     <div className="topbar">
@@ -45,6 +48,26 @@ export default function Topbar() {
         <div className="icon-btn" title="Refresh" onClick={() => router.refresh()}>
           <i className="fa-solid fa-rotate"></i>
         </div>
+
+        {/* ─── THEME TOGGLE ─────────────────────────────── */}
+        <button
+          className="theme-toggle"
+          onClick={toggleTheme}
+          title={isDark ? 'Switch to Light Mode' : 'Switch to Dark Mode'}
+          aria-label="Toggle theme"
+        >
+          <span className="theme-toggle-track">
+            <span className="theme-toggle-thumb">
+              {isDark
+                ? <i className="fa-solid fa-moon"></i>
+                : <i className="fa-solid fa-sun"></i>}
+            </span>
+          </span>
+          <span className="theme-toggle-label">
+            {isDark ? 'Dark' : 'Light'}
+          </span>
+        </button>
+
         <Link href="/compose" className="btn btn-primary">
           <i className="fa-solid fa-plus"></i> New Campaign
         </Link>

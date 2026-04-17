@@ -1,0 +1,362 @@
+{
+  "communities": {
+    "0": [
+      "next_logo",
+      "readme_ai_analysis",
+      "readme_bulk_email",
+      "readme_cron_job",
+      "readme_gemini_ai",
+      "readme_imap_simple",
+      "readme_mailforze",
+      "readme_mongodb",
+      "readme_nextjs",
+      "readme_nodemailer",
+      "readme_vercel",
+      "vercel_logo"
+    ],
+    "1": [
+      "app_api_ai_analyze_route_js",
+      "app_api_campaigns_route_js",
+      "app_api_send_batch_route_js",
+      "app_api_send_bulk_route_js",
+      "app_api_send_retry_route_js",
+      "app_api_settings_route_js",
+      "app_api_settings_test_smtp_route_js",
+      "app_api_templates_route_js",
+      "route_post"
+    ],
+    "2": [
+      "app_api_campaigns_id_recipients_route_js",
+      "app_api_cron_imap_sync_route_js",
+      "app_api_dashboard_stats_route_js",
+      "app_api_logs_route_js",
+      "app_api_recipients_route_js",
+      "app_api_reports_export_route_js",
+      "app_api_reports_route_js",
+      "app_api_track_route_js",
+      "route_get"
+    ],
+    "3": [
+      "components_sidebar_jsx",
+      "components_sidebarcontext_jsx",
+      "components_topbar_jsx",
+      "sidebar_sidebar",
+      "sidebarcontext_sidebarprovider",
+      "sidebarcontext_usesidebar",
+      "topbar_topbar"
+    ],
+    "4": [
+      "app_api_campaigns_id_route_js",
+      "lib_mongodb_js",
+      "mongodb_dbconnect",
+      "route_delete",
+      "route_put"
+    ],
+    "5": [
+      "components_poller_js",
+      "hooks_usecampaignpoller_js",
+      "poller_poller",
+      "usecampaignpoller_usecampaignpoller"
+    ],
+    "6": [
+      "agents_breaking_changes",
+      "agents_docs_guide",
+      "agents_nextjs_agent_rules",
+      "claude_agents_link"
+    ],
+    "7": [
+      "app_layout_js",
+      "layout_rootlayout"
+    ],
+    "8": [
+      "app_page_js",
+      "page_home"
+    ],
+    "9": [
+      "app_ai_assistant_page_js",
+      "page_aiassistantpage"
+    ],
+    "10": [
+      "app_campaigns_page_js",
+      "page_campaignspage"
+    ],
+    "11": [
+      "app_campaigns_id_page_js",
+      "page_campaigndetailspage"
+    ],
+    "12": [
+      "app_compose_page_js",
+      "page_composepage"
+    ],
+    "13": [
+      "app_dashboard_page_js",
+      "page_dashboardpage"
+    ],
+    "14": [
+      "app_logs_page_js",
+      "page_logspage"
+    ],
+    "15": [
+      "app_recipients_page_js",
+      "page_recipientspage"
+    ],
+    "16": [
+      "app_reports_page_js",
+      "page_reportspage"
+    ],
+    "17": [
+      "app_settings_page_js",
+      "page_settingspage"
+    ],
+    "18": [
+      "app_templates_page_js",
+      "page_templatespage"
+    ],
+    "19": [
+      "eslint_config_mjs"
+    ],
+    "20": [
+      "next_config_mjs"
+    ],
+    "21": [
+      "postcss_config_mjs"
+    ],
+    "22": [
+      "models_campaign_js"
+    ],
+    "23": [
+      "models_emaillog_js"
+    ],
+    "24": [
+      "models_recipient_js"
+    ],
+    "25": [
+      "models_settings_js"
+    ],
+    "26": [
+      "models_template_js"
+    ],
+    "27": [
+      "readme_dashboard"
+    ],
+    "28": [
+      "readme_campaign_mgmt"
+    ],
+    "29": [
+      "readme_recipients"
+    ],
+    "30": [
+      "readme_templates"
+    ],
+    "31": [
+      "readme_reports"
+    ],
+    "32": [
+      "readme_logs"
+    ],
+    "33": [
+      "readme_settings"
+    ],
+    "34": [
+      "readme_responsive"
+    ],
+    "35": [
+      "readme_privacy"
+    ],
+    "36": [
+      "readme_xlsx"
+    ],
+    "37": [
+      "file_icon"
+    ],
+    "38": [
+      "globe_icon"
+    ],
+    "39": [
+      "window_icon"
+    ]
+  },
+  "cohesion": {
+    "0": 0.17,
+    "1": 0.22,
+    "2": 0.22,
+    "3": 0.29,
+    "4": 0.5,
+    "5": 0.5,
+    "6": 0.5,
+    "7": 1.0,
+    "8": 1.0,
+    "9": 1.0,
+    "10": 1.0,
+    "11": 1.0,
+    "12": 1.0,
+    "13": 1.0,
+    "14": 1.0,
+    "15": 1.0,
+    "16": 1.0,
+    "17": 1.0,
+    "18": 1.0,
+    "19": 1.0,
+    "20": 1.0,
+    "21": 1.0,
+    "22": 1.0,
+    "23": 1.0,
+    "24": 1.0,
+    "25": 1.0,
+    "26": 1.0,
+    "27": 1.0,
+    "28": 1.0,
+    "29": 1.0,
+    "30": 1.0,
+    "31": 1.0,
+    "32": 1.0,
+    "33": 1.0,
+    "34": 1.0,
+    "35": 1.0,
+    "36": 1.0,
+    "37": 1.0,
+    "38": 1.0,
+    "39": 1.0
+  },
+  "gods": [
+    {
+      "id": "route_get",
+      "label": "GET()",
+      "degree": 13
+    },
+    {
+      "id": "route_post",
+      "label": "POST()",
+      "degree": 9
+    },
+    {
+      "id": "mongodb_dbconnect",
+      "label": "dbConnect()",
+      "degree": 5
+    },
+    {
+      "id": "readme_mailforze",
+      "label": "MailForze",
+      "degree": 5
+    },
+    {
+      "id": "sidebarcontext_usesidebar",
+      "label": "useSidebar()",
+      "degree": 3
+    },
+    {
+      "id": "agents_nextjs_agent_rules",
+      "label": "Next.js Agent Rules",
+      "degree": 3
+    },
+    {
+      "id": "readme_vercel",
+      "label": "Vercel",
+      "degree": 3
+    },
+    {
+      "id": "route_put",
+      "label": "PUT()",
+      "degree": 2
+    },
+    {
+      "id": "route_delete",
+      "label": "DELETE()",
+      "degree": 2
+    },
+    {
+      "id": "poller_poller",
+      "label": "Poller()",
+      "degree": 2
+    }
+  ],
+  "surprises": [
+    {
+      "source": "Next.js Logo",
+      "target": "Next.js 14",
+      "source_files": [
+        "public/next.svg",
+        "README.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "conceptually_related_to",
+      "why": "inferred connection - not explicitly stated in source; crosses file types (doc \u2194 image); connects across different repos/directories"
+    },
+    {
+      "source": "Vercel Logo",
+      "target": "Vercel",
+      "source_files": [
+        "public/vercel.svg",
+        "README.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "conceptually_related_to",
+      "why": "inferred connection - not explicitly stated in source; crosses file types (doc \u2194 image); connects across different repos/directories"
+    },
+    {
+      "source": "POST()",
+      "target": "dbConnect()",
+      "source_files": [
+        "app\\api\\templates\\route.js",
+        "lib\\mongodb.js"
+      ],
+      "confidence": "INFERRED",
+      "relation": "calls",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "GET()",
+      "target": "dbConnect()",
+      "source_files": [
+        "app\\api\\track\\route.js",
+        "lib\\mongodb.js"
+      ],
+      "confidence": "INFERRED",
+      "relation": "calls",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "PUT()",
+      "target": "dbConnect()",
+      "source_files": [
+        "app\\api\\campaigns\\[id]\\route.js",
+        "lib\\mongodb.js"
+      ],
+      "confidence": "INFERRED",
+      "relation": "calls",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; peripheral node `PUT()` unexpectedly reaches hub `dbConnect()`"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `GET()` connect `Community 2` to `Community 1`, `Community 4`?",
+      "why": "High betweenness centrality (0.036) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `POST()` connect `Community 1` to `Community 4`?",
+      "why": "High betweenness centrality (0.023) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `dbConnect()` connect `Community 4` to `Community 1`, `Community 2`?",
+      "why": "High betweenness centrality (0.014) - this node is a cross-community bridge."
+    },
+    {
+      "type": "verify_inferred",
+      "question": "Are the 4 inferred relationships involving `dbConnect()` (e.g. with `GET()` and `POST()`) actually correct?",
+      "why": "`dbConnect()` has 4 INFERRED edges - model-reasoned connections that need verification."
+    },
+    {
+      "type": "verify_inferred",
+      "question": "Are the 2 inferred relationships involving `useSidebar()` (e.g. with `Sidebar()` and `Topbar()`) actually correct?",
+      "why": "`useSidebar()` has 2 INFERRED edges - model-reasoned connections that need verification."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `Breaking Changes`, `Next.js Docs Guide`, `@AGENTS.md link` to the rest of the system?",
+      "why": "22 weakly-connected nodes found - possible documentation gaps or missing edges."
+    }
+  ]
+}
